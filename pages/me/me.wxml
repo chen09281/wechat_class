@@ -1,0 +1,39 @@
+<!--pages/me/me.wxml-->
+<view>
+    <view class="top" bindtap="aboutDetail">
+        <view class="img">
+            <open-data type="userAvatarUrl"></open-data>
+        </view>
+        <view wx:if="{{isLogin}}" class="name">
+            <open-data type="userNickName"></open-data>
+        </view>
+        <view wx:else class="name">
+            <button open-type="getUserInfo" bindgetuserinfo="getUserInfo">点击进行登录</button>
+        </view>
+        <view wx:if="{{isLogin}}" class="more">
+            >
+        </view>
+    </view>
+    <view class="mid">
+        <view class="content" bindtap="joinedSign">
+            <view class="title">参加的签到</view>
+            <view class="select">
+                <image src="../../images/more.png"></image>
+            </view>
+        </view>
+        <view class="content1" bindtap="createedSign">
+            <view class="title">发起的签到</view>
+        </view>
+        <view class="content2" bindtap="joinedClass">
+            <view class="title">加入的班级</view>
+        </view>
+
+        <view class="content3" bindtap="createClass">
+            <view class="title">创建签到班级</view>
+        </view>
+
+        <view class="content4" bindtap="createdClass">
+            <view class="title">创建的签到</view>
+        </view>
+    </view>
+</view>

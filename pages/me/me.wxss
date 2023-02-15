@@ -1,0 +1,111 @@
+/* pages/me/me.wxss */
+page {
+    background: #f1f1f1;
+}
+
+/* 登录 */
+.top {
+    display: flex;
+    padding: 20rpx 20rpx;
+    align-items: center;
+    margin-bottom: 100rpx;
+}
+
+.img {
+    overflow: hidden;
+    border: solid 1rpx #eee;
+    border-radius: 50%;
+    margin-right: 30rpx;
+    margin-left: 50rpx;
+    width: 120rpx;
+    height: 120rpx;
+}
+
+.img open-data {
+    width: 120rpx;
+    height: 120rpx;
+}
+
+.name {
+    color: #666;
+    margin-right: 20rpx;
+}
+
+.name button {
+    background: #f1f1f1;
+    color: #666;
+}
+
+.more {
+    position: absolute;
+    right: 150rpx;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+
+.more image {
+    width: 40rpx;
+    height: 40rpx;
+}
+
+/* 功能 */
+.mid{
+    width: 80%;
+    margin-left: 10%;
+}
+.content {
+    border-radius: 10px 10px 0px 0px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 40rpx 20rpx;
+    /* margin-bottom: 40rpx; */
+}
+.content1 {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 40rpx 20rpx;
+    width: 43.5%;
+    float: left;
+}
+.content2 {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 40rpx 20rpx;
+    width: 43%;
+    float: right;
+}
+.content3 {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 40rpx 20rpx;
+    width: 43.5%;
+    float: left;
+    border-radius: 0px 0px 0px 10px;
+}
+.content4 {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 40rpx 20rpx;
+    width: 43%;
+    float: right;
+    border-radius: 0px 0px 10px 0px;
+}
+.title{
+    color: #666;
+    padding-left: 50rpx;
+  }
+  .select{
+    position: absolute;
+    right: 160rpx;
+    color: #666;
+  }
+  .select image{
+    width: 40rpx;
+    height: 40rpx;
+  }

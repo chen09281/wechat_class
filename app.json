@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/me/me",
+    "pages/logs/logs",
+    "pages/aboutDetail/aboutDetail",
+    "pages/joinedSign/joinedSign",
+    "pages/createSign/createSign",
+    "pages/createdSign/createdSign",
+    "pages/joinedClass/joinedClass",
+    "pages/createClass/createClass",
+    "pages/createdClass/createdClass",
+    "pages/selectClass/selectClass",
+    "pages/selectSignType/selectSignType",
+    "pages/sign/sign",
+    "pages/pSign/pSign",
+    "pages/gSign/gSign",
+    "pages/lSign/lSign",
+    "pages/randomCall/randomCall",
+    "pages/joinClass/joinClass",
+    "pages/notice/notice"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTitleText": "签到系统",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon3.png",
+        "selectedIconPath": "images/icon4.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/icon1.png",
+        "selectedIconPath": "images/icon2.png"
+      }
+    ],
+    "selectedColor": "#58A1E7",
+    "color": "#aaa"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

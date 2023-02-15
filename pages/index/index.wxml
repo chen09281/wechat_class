@@ -1,0 +1,23 @@
+<view>
+<view class="head">
+<view class="one" bindtap="seelctClass" data-id="0"><image src="../../images/签到.png" id="pic"/><text id="bot">\n 发起签到</text></view>
+<view class="one" bindtap="seelctClass" data-id="1"><image src="../../images/实时点名.png" id="pic"/><text>\n 实时点名</text></view>
+<view class="one" bindtap="joinClass" data-id="2"><image src="../../images/加入班级.png" id="pic"/><text>\n 加入班级</text></view>
+<view class="one" bindtap="notice" data-id="3"><image src="../../images/消息中心.png" id="pic"/><text>\n 消息提醒</text></view>
+</view>
+<!-- 1.轮播图片 -->
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="3000" circular="true">
+    <swiper-item class="swiper-item">
+        <image src="../../images/00002-1116378809.png"></image>
+    </swiper-item>
+    <swiper-item class="swiper-item">
+        <image src="../../images/00004-3782653684.png"></image>
+    </swiper-item>
+    <swiper-item class="swiper-item">
+        <image src="../../images/00005-1887836306.png"></image>
+    </swiper-item>
+    <swiper-item class="swiper-item">
+        <image src="../../images/00006-409359529.png"></image>
+    </swiper-item>
+</swiper>
+</view>
